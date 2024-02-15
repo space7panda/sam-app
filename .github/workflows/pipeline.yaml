@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - 'main'
-      - 'feature**'
+      - 'feature*'
   delete:
     branches:
-      - 'feature**'
+      - 'feature*'
 
 env:
   SAM_TEMPLATE: template.yaml
